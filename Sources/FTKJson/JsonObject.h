@@ -10,14 +10,27 @@
 #define FTK_JSON_JSON_OBJECT_H_
 
 
+#include <utility>
+
+
 namespace ftk {
 namespace utility {
 
 
+template <typename T>
 class JsonObject {
 public:
     JsonObject() = default;
+    JsonObject(const T value) : value_(value) { }
     ~JsonObject() = default;
+
+public:
+    T&& get() {
+        return std::forward<T>(value_);
+    }
+
+private:
+    T value_;
 };
 
 
