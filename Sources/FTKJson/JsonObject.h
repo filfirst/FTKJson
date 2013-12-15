@@ -22,6 +22,7 @@ class JsonObject {
 public:
     JsonObject() = default;
     JsonObject(const T value) : value_(value) { }
+    JsonObject(const JsonObject<T> &&jObj) : value_(jObj.value_) { }
     ~JsonObject() = default;
 
 public:

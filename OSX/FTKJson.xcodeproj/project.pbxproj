@@ -16,7 +16,7 @@
 		145333A2185DA0660097F0FC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1453338B185DA0660097F0FC /* Cocoa.framework */; };
 		145333A5185DA0660097F0FC /* FTKJson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14533388185DA0660097F0FC /* FTKJson.framework */; };
 		145333AB185DA0660097F0FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 145333A9185DA0660097F0FC /* InfoPlist.strings */; };
-		14A02A81185DB47C00A36B0E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14A02A80185DB47C00A36B0E /* main.cpp */; };
+		14D63397185E317C00EE7FFB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14D63396185E317C00EE7FFB /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +65,7 @@
 		145333A8185DA0660097F0FC /* FTKJsonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FTKJsonTests-Info.plist"; sourceTree = "<group>"; };
 		145333AA185DA0660097F0FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		14A02A76185DB3F600A36B0E /* FTKJsonCmd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FTKJsonCmd; sourceTree = BUILT_PRODUCTS_DIR; };
-		14A02A80185DB47C00A36B0E /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../Sources/FTKJsonCmd/main.cpp; sourceTree = "<group>"; };
+		14D63396185E317C00EE7FFB /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../Sources/FTKJsonCmd/main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,7 +203,7 @@
 		14A02A7F185DB43A00A36B0E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				14A02A80185DB47C00A36B0E /* main.cpp */,
+				14D63396185E317C00EE7FFB /* main.cpp */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -349,7 +349,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14A02A81185DB47C00A36B0E /* main.cpp in Sources */,
+				14D63397185E317C00EE7FFB /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,6 +581,7 @@
 				14A02A7D185DB3F600A36B0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
