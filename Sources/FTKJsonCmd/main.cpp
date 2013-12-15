@@ -15,7 +15,7 @@ int main(int argc, const char * argv[]) {
     ftk::utility::JsonObject<int> jobj(2000);
     char i = jobj.get();
     std::cout << std::hex << i << std::endl;
-    
+
     return 0;
 }
 
