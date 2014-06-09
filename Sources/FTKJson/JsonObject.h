@@ -29,6 +29,10 @@ public:
     T&& get() {
         return std::forward<T>(value_);
     }
+    
+    void set(T value) {
+        value_ = value;
+    }
 
 private:
     T value_;

@@ -16,12 +16,20 @@
 		145333A2185DA0660097F0FC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1453338B185DA0660097F0FC /* Cocoa.framework */; };
 		145333A5185DA0660097F0FC /* FTKJson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14533388185DA0660097F0FC /* FTKJson.framework */; };
 		145333AB185DA0660097F0FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 145333A9185DA0660097F0FC /* InfoPlist.strings */; };
+		149EF778190C32D800E526FD /* FTKJson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14533388185DA0660097F0FC /* FTKJson.framework */; };
 		14F7F7FD185E3595009081C4 /* FTKJsonCmd.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 14F7F7FC185E3595009081C4 /* FTKJsonCmd.1 */; };
 		14F7F803185E3603009081C4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14F7F802185E3603009081C4 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		145333A3185DA0660097F0FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1453337F185DA0660097F0FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14533387185DA0660097F0FC;
+			remoteInfo = FTKJson;
+		};
+		149EF776190C32D000E526FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1453337F185DA0660097F0FC /* Project object */;
 			proxyType = 1;
@@ -87,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				149EF778190C32D800E526FD /* FTKJson.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +275,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				149EF777190C32D000E526FD /* PBXTargetDependency */,
 			);
 			name = FTKJsonCmd;
 			productName = FTKJsonCmd;
@@ -356,6 +366,11 @@
 			isa = PBXTargetDependency;
 			target = 14533387185DA0660097F0FC /* FTKJson */;
 			targetProxy = 145333A3185DA0660097F0FC /* PBXContainerItemProxy */;
+		};
+		149EF777190C32D000E526FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14533387185DA0660097F0FC /* FTKJson */;
+			targetProxy = 149EF776190C32D000E526FD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -572,6 +587,7 @@
 				14F7F800185E3596009081C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
